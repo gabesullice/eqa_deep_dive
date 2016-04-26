@@ -1,5 +1,7 @@
 # Entity Query API Deep Dive
 
+This is an overview of what I'll be covering during the 2016-04-26 DBUG meetup. We'll be using the [Entity Query API](https://www.drupal.org/project/entityqueryapi) module as a reference for some "in-depth" looks at custom module development in Drupal 8.
+
 # Why?
 - Much of Drupal 8's out-of-the-box RESTful tools are fantastic, but in a headless or API heavy site they don't get you "all the way there."
 - Notably, one can't query for a collection of entities without creating a custom View.
@@ -16,7 +18,7 @@
 - If you'd like to help develop dapi.js, a JS library I'm imagining that will provide a low-level, universal interface to Drupal's entity system over REST, contact me! [gabe@aten.io](mailto:gabe@aten.io)
 
 # How does it work?
-This is just a roadmap for what I'd like to cover, if you think we're not going to get to something you want to see, speak up and we'll talk about that.
+This is just a roadmap for what I'd like to cover, if you think we're not going to get to something you want to see, speak up and we'll talk about that. All paths are relative to the root of the entityqueryapi module.
 
 - `entityqueryapi.info.yml`
   - `configure` key
